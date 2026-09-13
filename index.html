@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kestrel Hill College</title>
+<meta name="description" content="Kestrel Hill College is a small liberal arts college on a forested hillside above the Aldergate River, known for fieldwork-based learning and close mentorship.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="header-row">
+    <a class="brand" href="index.html">
+      <svg width="34" height="34" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M20 4C13 10 6 13 3 14c4 1 8 0.5 10.5-1C11 17 8 22 8 28c3-3 6.5-5.5 9-6-1 3-1 6.5 0 9 1-2.5 1-6 0-9 2.5 0.5 6 3 9 6 0-6-3-11-5.5-15C23 18 27 18.5 31 17.5 28 13 21 10 20 4Z" fill="#D3AC5C"/>
+      </svg>
+      <span class="brand-text">Kestrel Hill<span class="est">College &middot; Est. 1889</span></span>
+    </a>
+
+    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="main-nav">
+      Menu
+    </button>
+
+    <nav class="main-nav" id="main-nav" data-main-nav aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="academics.html">Academics</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="campus-life.html">Campus Life</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="site-search">
+      <form data-search-form role="search" action="search-results.html">
+        <label class="visually-hidden" for="hdr-search">Search the site</label>
+        <input id="hdr-search" type="search" name="q" placeholder="Search the site&hellip;" autocomplete="off">
+        <button type="submit" aria-label="Search">
+          <svg width="14" height="14" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="8.5" cy="8.5" r="6" stroke="#1F2E23" stroke-width="2"/><path d="M17 17L13.5 13.5" stroke="#1F2E23" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+      </form>
+      <div class="search-results-panel" data-search-panel role="listbox" aria-label="Search suggestions"></div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <svg class="contour-art" viewBox="0 0 1200 500" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 420 Q150 380 300 400 T600 390 T900 410 T1200 380 V500 H0 Z" fill="#243425"/>
+      <path d="M0 450 Q200 410 400 430 T800 420 T1200 440 V500 H0 Z" fill="#1c2a1f"/>
+      <path d="M0 470 Q300 450 600 465 T1200 460 V500 H0 Z" fill="#16211a"/>
+    </svg>
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Founded 1889, on the east face of Aldergate Hill</p>
+      <h1>Learn by observing the ground beneath you.</h1>
+      <p class="hero-lede">Kestrel Hill College is a small liberal arts college where fieldwork, close mentorship, and small seminars shape every major &mdash; from environmental science to studio art.</p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="admissions.html">Apply to Kestrel Hill</a>
+        <a class="btn btn-outline" href="academics.html">Explore Academics</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="stat-strip">
+    <div class="container stat-grid">
+      <div><span class="stat-num">1,480</span><span class="stat-label">undergraduates</span></div>
+      <div><span class="stat-num">9:1</span><span class="stat-label">student&ndash;faculty ratio</span></div>
+      <div><span class="stat-num">18</span><span class="stat-label">majors offered</span></div>
+      <div><span class="stat-num">1889</span><span class="stat-label">year founded</span></div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>A campus shaped by its hillside</h2>
+          <p>Six terraces of stone and timber buildings climb Aldergate Hill, connected by switchback paths instead of a flat quad grid.</p>
+        </div>
+        <a class="btn btn-dark-outline" href="about.html">More about the college</a>
+      </div>
+
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M3 20L9 8l4 7 3-4 5 9H3Z" stroke="#8C4A2F" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Fieldwork, not just lecture halls</h3>
+          <p>Every first-year completes a fieldwork seminar, whether that means the river station, the studio, or the town archive.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3.4" stroke="#8C4A2F" stroke-width="1.6"/><path d="M5 20c1.5-4 4-6 7-6s5.5 2 7 6" stroke="#8C4A2F" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Advisors from week one</h3>
+          <p>Every student is paired with a faculty advisor before their first class, kept for all four years unless they choose otherwise.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M4 4h16v13H8l-4 4V4Z" stroke="#8C4A2F" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Fourteen students per class</h3>
+          <p>Seminar-style classes mean students are known by name and expected to speak, not just listen, from the first week.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Six programs, one hillside</h2>
+          <p>A sample of the eighteen majors offered at Kestrel Hill.</p>
+        </div>
+        <a class="btn btn-dark-outline" href="academics.html">View all programs</a>
+      </div>
+      <div class="program-list">
+        <div class="program">
+          <span class="program-code">ENVS</span>
+          <div><h3>Environmental Science</h3><p>Fieldwork on the Aldergate watershed, from hydrology to conservation policy.</p></div>
+          <span class="program-degree">B.S.</span>
+        </div>
+        <div class="program">
+          <span class="program-code">LIT</span>
+          <div><h3>Literature &amp; Writing</h3><p>Workshop-based writing alongside close reading, ending in a senior manuscript.</p></div>
+          <span class="program-degree">B.A.</span>
+        </div>
+        <div class="program">
+          <span class="program-code">CS</span>
+          <div><h3>Computer Science</h3><p>Algorithms and systems, with a data-science track built for environmental research.</p></div>
+          <span class="program-degree">B.S.</span>
+        </div>
+        <div class="program">
+          <span class="program-code">ART</span>
+          <div><h3>Studio Art</h3><p>Painting, printmaking, and sculpture, closing with a public thesis exhibition.</p></div>
+          <span class="program-degree">B.A.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark">
+    <div class="container">
+      <div class="quote-block" style="border-color:#D3AC5C;">
+        <p>&ldquo;I came to Kestrel Hill expecting a quiet campus. I didn&rsquo;t expect to spend my first October measuring stream temperature at six in the morning &mdash; or to love it.&rdquo;</p>
+        <cite>&mdash; Priya Basu, Class of 2026, Environmental Science</cite>
+      </div>
+      <a class="btn btn-outline" href="campus-life.html">See campus life</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>Kestrel Hill College</h4>
+        <p>14 Aldergate Hill Road, on the Aldergate River, since 1889.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="campus-life.html">Campus Life</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="admissions.html#apply">Apply Now</a></li>
+          <li><a href="admissions.html#visit">Visit Campus</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="search-results.html">Search the Site</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>admissions@kestrelhill.edu</li>
+          <li>(555) 014-2891</li>
+          <li>14 Aldergate Hill Road</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> Kestrel Hill College. All rights reserved.</span>
+      <span>A fictional college, built as a design sample.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/search-data.js"></script>
+<script src="js/search.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
